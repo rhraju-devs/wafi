@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+:root {
+
+    /* site color variable */
+
+    /* site main color */
+    --main-h: 242;
+    --main-s: 92%;
+    --main-l: 61%;
+    --main: var(--main-h) var(--main-s) var(--main-l);
+
+    /* secondary color */
+    --secondary-h: 208;
+    --secondary-s: 7%;
+    --secondary-l: 46%;
+    --secondary: var(--secondary-h) var(--secondary-s) var(--secondary-l);
+
+    /* primary color */
+    --primary-h: 211;
+    --primary-s: 100%;
+    --primary-l: 50%;
+    --primary: var(--primary-h) var(--primary-s) var(--primary-l);
+
+    /* nav color */
+    --nav-h: 49;
+    --nav-s: 100%;
+    --nav-l: 91%;
+    --nav: var(--nav-h) var(--nav-s) var(--nav-l);
+
+    /* sidebar color */
+    --sidenavbar-h: 231;
+    --sidenavbar-s: 85%;
+    --sidenavbar-l: 8%;
+    --sidenavbar: var(--sidenavbar-h) var(--sidenavbar-s) var(--sidenavbar-l);
+
+    /*white color */
+    --white-h: 0;
+    --white-s: 0%;
+    --white-l: 100%;
+    --white: var(--white-h) var(--white-s) var(--white-l);
+
+    /* black color */
+    --black-h: 0;
+    --black-s: 0%;
+    --black-l: 0%;
+    --black: var(--black-h) var(--black-s) var(--black-l);
+
+    /* yellow color */
+    --yellow-h: 49;
+    --yellow-s: 100%;
+    --yellow-l: 50%;
+    --yellow: var(--yellow-h) var(--yellow-s) var(--yellow-l);
+
+    /* purple color */
+    --purple-h: 300;
+    --purple-s: 100%;
+    --purple-l: 25%;
+    --purple: var(--purple-h) var(--purple-s) var(--purple-l);
+
+    /* blue color */
+    --blue-h: 224;
+    --blue-s: 98%;
+    --blue-l: 52%;
+    --blue: var(--blue-h) var(--blue-s) var(--blue-l);
+
+    /* pink color */
+    --pink-h: 320;
+    --pink-s: 98%;
+    --pink-l: 53%;
+    --pink: var(--pink-h) var(--pink-s) var(--pink-l);
+
+    /* slate color */
+    --slate-h: 242;
+    --slate-s: 92%;
+    --slate-l: 71%;
+    --slate: var(--slate-h) var(--slate-s) var(--slate-l);
+
+    /* tangaroa color */
+    --tangaroa-h: 216;
+    --tangaroa-s: 42%;
+    --tangaroa-l: 15%;
+    --tangaroa: var(--tangaroa-h) var(--tangaroa-s) var(--tangaroa-l);
+
+    /* danger color */
+    --danger-h: 354;
+    --danger-s: 70%;
+    --danger-l: 54%;
+    --danger: var(--danger-h) var(--danger-s) var(--danger-l);
+
+    /* success color */
+    --success-h: 134;
+    --success-s: 61%;
+    --success-l: 41%;
+    --success: var(--success-h) var(--success-s) var(--success-l);
+
+    /* warning color */
+    --warning-h: 45;
+    --warning-s: 100%;
+    --warning-l: 51%;
+    --warning: var(--warning-h) var(--warning-s) var(--warning-l);
+
+    /* info color */
+    --info-h: 188;
+    --info-s: 78%;
+    --info-l: 41%;
+    --info: var(--info-h) var(--info-s) var(--info-l);
+
+    /* dark color */
+    --dark-h: 210;
+    --dark-s: 10%;
+    --dark-l: 23%;
+    --dark: var(--dark-h) var(--dark-s) var(--dark-l);
+
+
+    /* grey color */
+    --grey-h: 0;
+    --grey-s: 0%;
+    --grey-l: 13%;
+    --grey: var(--grey-h) var(--grey-s) var(--grey-l);
+
+    /* red color */
+    --red-h: 4;
+    --red-s: 90%;
+    --red-l: 58%;
+    --red: var(--red-h) var(--red-s) var(--red-l);
+
+
+    /* indigo color */
+    --indigo-h: 231;
+    --indigo-s: 48%;
+    --indigo-l: 48%;
+    --indigo: var(--indigo-h) var(--indigo-s) var(--indigo-l);
+
+    /* teal color */
+    --teal-h: 174;
+    --teal-s: 100%;
+    --teal-l: 29%;
+    --teal: var(--teal-h) var(--teal-s) var(--teal-l);
+
+
+    /* orange color */
+    --orange-h: 39;
+    --orange-s: 100%;
+    --orange-l: 50%;
+    --orange: var(--orange-h) var(--orange-s) var(--orange-l);
+
+    --gradient-1: linear-gradient(225deg, rgb(105, 234, 203), rgb(234, 204, 248), rgb(102, 84, 241));
+    --gradient-2: linear-gradient(337deg, rgb(101, 78, 163), rgb(218, 152, 180));
+    --gradient-3: linear-gradient(354deg, rgb(255, 117, 181), rgb(255, 184, 108));
+    --gradient-4: linear-gradient(355deg, rgb(28, 94, 101), rgb(83, 197, 148));
+    --gradient-5: linear-gradient(55deg, rgb(138, 35, 135), rgb(233, 64, 87), rgb(233, 64, 87));
+    --gradient-6: linear-gradient(270deg, rgb(20, 30, 48), rgb(36, 59, 85));
+    --gradient-7: linear-gradient(120deg, rgb(212, 252, 121), rgb(150, 230, 161));
+    --gradient-8: linear-gradient(120deg, rgb(246, 211, 101), rgb(253, 160, 133));
+    --gradient-9: linear-gradient(120deg, rgb(132, 250, 176), rgb(143, 211, 244));
+    --gradient-10: linear-gradient(120deg, rgb(252, 203, 144), rgb(213, 126, 235));
+    --gradient-11: linear-gradient(145deg, rgb(48, 207, 208), rgb(51, 8, 103));
+    --gradient-12: linear-gradient(0deg, rgb(210, 153, 194), rgb(254, 249, 215));
+    --gradient-13: linear-gradient(135deg, rgb(102, 126, 234), rgb(118, 75, 162));
+    --gradient-14: linear-gradient(90deg, rgb(247, 140, 160), rgb(249, 116, 143), rgb(253, 134, 140), rgb(254, 154, 139));
+    --gradient-15: linear-gradient(0deg, rgb(172, 203, 238), rgb(231, 240, 253));
+    --gradient-16: linear-gradient(0deg, rgb(193, 223, 196), rgb(222, 236, 221));
+    --gradient-17: linear-gradient(0deg, rgb(106, 133, 182), rgb(186, 200, 224));
+    --gradient-18: linear-gradient(0deg, rgb(151, 149, 240), rgb(251, 200, 212));
+    --gradient-19: linear-gradient(320deg, rgb(63, 81, 177), rgb(143, 106, 174), rgb(204, 107, 142), rgb(241, 130, 113), rgb(243, 164, 105), rgb(247, 201, 120));
+    --gradient-20: linear-gradient(0deg, rgb(199, 29, 111), rgb(208, 150, 147));
+    --gradient-21: linear-gradient(90deg, rgb(168, 202, 186), rgb(93, 65, 87));
+    --gradient-22: linear-gradient(320deg, rgb(63, 81, 177), rgb(143, 106, 174), rgb(204, 107, 142), rgb(241, 130, 113), rgb(243, 164, 105), rgb(247, 201, 120));
+    --gradient-23: linear-gradient(0deg, rgb(59, 65, 197), rgb(169, 129, 187), rgb(255, 200, 169));
+    --gradient-24: linear-gradient(45deg, rgb(255, 199, 150), rgb(255, 107, 149));
+    --gradient-25: linear-gradient(45deg, rgb(0, 219, 222), rgb(252, 0, 255));
+    --gradient-26: linear-gradient(0deg, rgb(80, 204, 127), rgb(245, 209, 0));
+    --gradient-27: linear-gradient(90deg, rgb(10, 207, 254), rgb(73, 90, 255));
+    --gradient-28: linear-gradient(45deg, rgb(225, 79, 173), rgb(249, 212, 35));
+    --gradient-29: linear-gradient(45deg, rgb(236, 119, 171), rgb(120, 115, 245));
+    --gradient-30: linear-gradient(225deg, rgb(105, 234, 203), rgb(234, 204, 248), rgb(102, 84, 241));
+    --gradient-31: linear-gradient(0deg, rgb(2, 80, 197), rgb(212, 63, 141));
+    --gradient-32: linear-gradient(0deg, rgb(255, 8, 68), rgb(255, 177, 153));
+    --gradient-33: linear-gradient(225deg, rgb(252, 235, 194), rgb(253, 103, 166), rgb(178, 152, 250));
+}
+
+
+
+.icon-class-success {
+    position: relative;
+}
+
+.icon-class-success::after{
+    content: "\f058";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-style: normal;
+    color: hsl(var(--success));
+}
+
+.icon-class-success::before{
+    content: "";
+    position: relative;
+    top: -13px;
+    left: -15px;
+    width: 6px;
+    height: 51px;
+    background: hsl(var(--success));
+    display: flex;
+}
+
+.icon-class-error {
+    position: relative;
+}
+
+.icon-class-error::after{
+    content: "\f057";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-style: normal;
+    color: hsl(var(--danger));
+}
+
+.icon-class-error::before{
+    content: "";
+    position: relative;
+    top: -13px;
+    left: -15px;
+    width: 6px;
+    height: 51px;
+    background: hsl(var(--danger));
+    display: flex;
+}
+
+.icon-class-warning {
+    position: relative;
+}
+.icon-class-warning::after {
+    content: "\f06a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-style: normal;
+    color: hsl(var(--warning));
+}
+.icon-class-warning::before {
+    content: "";
+    position: relative;
+    top: -13px;
+    left: -15px;
+    width: 6px;
+    height: 51px;
+    background: hsl(var(--warning));
+    display: flex;
+}
+
+.icon-class-info {
+    position: relative;
+}
+.icon-class-info::after {
+    content: "\f059";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-style: normal;
+    color: hsl(var(--info));
+}
+.icon-class-info::before {
+    content: "";
+    position: relative;
+    top: -13px;
+    left: -15px;
+    width: 6px;
+    height: 51px;
+    background: hsl(var(--info));
+    display: flex;
+}
+
+.iziToast>.iziToast-body {
+    padding: 0 24px 0 10px;
+}
+
+.iziToast>.iziToast-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0;
+    padding: 0;
+    opacity: .6;
+    width: 60px;
+    height: 100%;
+    background: none;
+    color: hsl(var(--black));
+    background-size: 8px;
+    cursor: pointer;
+    outline: 0;
+}
+.iziToast>.iziToast-close::before {
+    position: relative;
+    content: 'Close';
+    font-weight: 600;
+    border-left: 1px solid hsl(var(--black));
+    padding: 0px 8px;
+
+}
