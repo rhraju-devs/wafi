@@ -24,7 +24,7 @@
                     <div class="col-lg-12">
                         <div class="form-group mb-3">
                             <label for="mobile" class="form--label mb-3">Mobile</label>
-                            <input type="text" class="form--control" name="mobile" id="mobile" value="{{@$employee->mobile}}">
+                            <input type="number" class="form--control" name="mobile" id="mobile" value="{{@$employee->mobile}}">
                         </div>
                     </div>
                     <div class="col-lg-12">

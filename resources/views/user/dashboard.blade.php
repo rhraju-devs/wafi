@@ -99,7 +99,7 @@
                     </div>
 
                     <div class="mb-4 form-group">
-                        <label class="mb-2 form--label">@lang('Current Password')</label>
+                        <label class="mb-2 form--label">@lang('New Password')</label>
                         <div class="input--group position-relative">
                             <input type="password" name="password" id="password" class="form--control bg--white" placeholder="@lang('New Password')" required>
                             <div class="password-show-hide fas fa-eye-slash toggle-password-change"
